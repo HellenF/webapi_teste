@@ -15,10 +15,9 @@ dotnet new webapi -n webapi_teste
 *dotnet new webapi -n é o comando para criar
 
 
-code
+code ./webapi_teste 
 
-é um comando pra abrir.
-Basta clicar em Open Folder e encontrar o projeto.
+é um comando pra abrir, no caso irá abrir diretamente o projeto( é só colocar o nome da aplicação). 
 
 ![image](https://user-images.githubusercontent.com/28712925/92627552-e5f64580-f2a1-11ea-98b7-fa916c90c7c3.png)
 
@@ -57,23 +56,7 @@ Ficará assim:
 
 ![image](https://user-images.githubusercontent.com/28712925/92612270-18974280-f290-11ea-8384-108c1fdd2e0c.png)
 
-app.UseSwagger (c => {
 
-                c.SerializeAsV2 = true;
-                
-            });
-            
-            app.UseSwaggerUI (c => {
-            
-                c.SwaggerEndpoint (“/swagger/v1/swagger.json”, “My API V1");
-                
-            });
-            
-            if (env.IsDevelopment ()) {
-            
-                app.UseDeveloperExceptionPage ();
-                
-            }
             
 -----------------------------------------------------------------------  
 * Caso aconteça de aparecer erros - apagar e escever novamente as aspas (“/swagger/v1/swagger.json”, “My API V1");
