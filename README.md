@@ -26,9 +26,7 @@ Resultado:
 
 ![image](https://user-images.githubusercontent.com/28712925/92614303-47aeb380-f292-11ea-8543-fc600194d5ec.png)
 
-Salvar ( Ctrl + S) e digitar no terminal
 
-dotnet run
 
 enderendereço URL para conferir: https://localhost:5001/WeatherForecast
 
